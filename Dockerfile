@@ -4,7 +4,7 @@ MAINTAINER Yiqiu Jia <yiqiujia@hotmail.com>
 
 RUN apt-get install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++
 
-RUN . $HOME/.nvm/nvm.sh && cd / && npm install ws xmlhttprequest canvas ws xmlhttprequest node-fetch mjpeg-server
+RUN . $HOME/.nvm/nvm.sh && cd / && npm install ws xmlhttprequest canvas ws xmlhttprequest node-fetch mjpeg-server bitmaps
 
 RUN echo $(date "+%Y-%m-%d_%H:%M:%S") >> /.image_time
 RUN echo "land007/tfjs-html" >> /.image_name
